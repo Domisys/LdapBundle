@@ -1,13 +1,13 @@
 {
-    "name": "opensky/ldap-bundle",
+    "name": "domisys/ldap-bundle",
     "description": "Integrates LDAP",
     "keywords": [ "ldap", "security" ],
-    "homepage": "https://github.com/opensky/LdapBundle",
+    "homepage": "https://github.com/Domisys/LdapBundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "require": {
         "php": ">=5.3.0",
-        "symfony/framework-bundle": ">=2.1.0,<2.3-dev"
+        "symfony/framework-bundle": "~2.1"
     },
     "autoload": {
         "psr-0": { "OpenSky\\Bundle\\LdapBundle": "" }

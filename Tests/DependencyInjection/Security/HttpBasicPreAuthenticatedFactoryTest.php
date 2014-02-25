@@ -14,7 +14,7 @@ class HttpBasicPreAuthenticatedFactoryTest extends \PHPUnit_Framework_TestCase
     {
         $factory = new HttpBasicPreAuthenticatedFactory();
         $container = new ContainerBuilder();
-        $userProvider = $this->getMock('Symfony\Component\Security\Core\User\UserProviderInterface');
+        $userProvider = 'opensky_ldap.user_provider';
         $defaultEntryPoint = $this->getMock('Symfony\Component\Security\Http\EntryPoint\AuthenticationEntryPointInterface');
 
         // Load "security.authentication.listener.basic_pre_auth.class" parameter from ldap.xml

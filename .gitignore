@@ -1,1 +1,6 @@
 phpunit.xml
+
+# Eclipse files
+.buildpath
+.project
+.settings
